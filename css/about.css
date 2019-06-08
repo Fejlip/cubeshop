@@ -1,0 +1,47 @@
+/* Simple styles */
+
+h2 {
+    font-size: 40px;
+}
+
+.line {
+    border-bottom: 1px dashed white;
+    animation: anim 1s forwards;
+    width: 0;
+}
+
+.list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+li {
+    margin-top: 0.2rem;
+}
+
+.white small {
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle {
+    background-color: black;
+}
+
+.fas {
+    font-size: 3rem;
+}
+
+.desc {
+    font-size: 0.7rem;
+}
+
+@keyframes anim {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}

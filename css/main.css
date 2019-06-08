@@ -1,0 +1,21 @@
+/* Basic stuff */
+
+html {
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+/* Simple classes */
+
+.info {
+    color: white;
+    width: 100%;
+    margin: 0;
+}

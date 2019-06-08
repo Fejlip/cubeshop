@@ -1,0 +1,106 @@
+/* Basic stuff */
+
+* {
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h6 {
+    font-weight: 300;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Fontawesome styling */
+
+.fas {
+    color: rgb(49, 185, 117);
+}
+
+/* Scrollbar */
+
+.list-2-3,
+.list-2-3-slider {
+    overflow-y: scroll;
+}
+
+.list-2-3::-webkit-scrollbar,
+.list-2-3-slider::-webkit-scrollbar {
+    width: 12px;
+}
+
+.list-2-3::-webkit-scrollbar-thumb,
+.list-2-3-slider::-webkit-scrollbar-thumb {
+    background: rgb(49, 185, 117);
+    height: 28px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.list-2-3::-webkit-scrollbar-track-piece,
+.list-2-3-slider::-webkit-scrollbar-track-piece {
+    background-color: rgba(221, 221, 221, 0.5);
+    border-radius: 9px;
+}
+
+/* Animated line */
+
+.line {
+    border-top: dashed white 1px;
+    margin: 1rem 3rem;
+    width: 0;
+    animation: anim 1.5s forwards;
+}
+
+/* Content styling */
+
+.packet {
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+.popular {
+    background-color: rgb(250, 63, 63);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 1px;
+}
+
+.list {
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.border-red {
+    border: 2px solid rgb(250, 63, 63);
+}
+
+.a {
+    margin-left: -1.2rem !important;
+    margin-top: 1.7rem !important;
+}
+
+/* Animations */
+
+@keyframes anim {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}

@@ -1,0 +1,228 @@
+/* Basic stuff */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,600|Raleway:400,600&subset=latin-ext');
+
+html {
+    background: rgb(44, 44, 44);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background: transparent;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(49, 185, 117);
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    display: none;
+}
+
+.bg {
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    background: url('../img/bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.09;
+    z-index: -1;
+}
+
+/* Bootstrap corrections */
+
+.div {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* hover.css */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Navbar */
+
+#header {
+    position: relative;
+}
+
+#logo {
+    z-index: 10001;
+}
+
+.nav {
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.hamburger,
+.hamburger:hover {
+    z-index: 10001;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background-color: rgb(49, 185, 117) !important;
+    z-index: 10001;
+}
+
+.fixed {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+    z-index: 10000;
+    background: rgba(44, 44, 44, 0.95);
+    height: 100vh !important;
+    padding-top: 12vh;
+    margin-left: 0;
+}
+
+/* Buttons styling */
+
+.button {
+    background-color: rgb(49, 185, 117);
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: rgb(49, 185, 117);
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button-danger {
+    background-color: #ba141f;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button-danger:hover {
+    background-color: #ba141f;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button-warning {
+    background-color: #FFC107;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+}
+
+.button-warning:hover {
+    background-color: #FFC107;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+}
+
+/* Simple classes */
+
+.dgreen {
+    color: rgb(49, 185, 117) !important;
+}
+
+.white {
+    color: white;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.darkgray {
+    background-color: rgba(44, 44, 44, 1);
+}
+
+.br-l {
+    border-left: 2px solid white;
+}
+
+/* Discord */
+
+#dc {
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Responsive stuff */
+
+@media (max-width: 340px) {
+    #logo {
+        width: 80%;
+        height: auto;
+    }
+}
