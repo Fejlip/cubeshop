@@ -1,4 +1,4 @@
-# lody
+# Cubeshop - site made to sell minecraft itemshops/websites
 
 Simple frontend project made for a friend.
 
