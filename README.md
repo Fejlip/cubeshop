@@ -2,4 +2,4 @@
 
 Simple frontend project made for a friend.
 
-Live at <a href="https://cubeshop.pl">cubeshop.pl</a>
+Site at <a href="https://cubeshop.pl">cubeshop.pl</a> - Discontinued
