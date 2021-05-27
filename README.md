@@ -1,4 +1,4 @@
-# Cubeshop - site made to sell minecraft itemshops/websites
+# Cubeshop
 
 Simple frontend project made for a friend.
 
